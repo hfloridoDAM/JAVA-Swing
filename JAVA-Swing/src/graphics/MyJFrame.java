@@ -15,9 +15,11 @@ public class MyJFrame extends JFrame {
 		
 		setTitle("SWING");
 		
-		setVisible(true);
+		
 		
 		MyJPanel panel = new MyJPanel();
 		add(panel);
+		
+		setVisible(true);
 	}
 }
